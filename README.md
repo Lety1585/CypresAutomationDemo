@@ -23,10 +23,10 @@ The tests run against public demo sites:
 ## 🏗️ Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Lety1585/cypress-automation-demo.git
+git clone https://github.com/Lety1585/CypresAutomationDemo.git
 
 # Navigate to project
-cd cypress-automation-demo
+cd CypresAutomationDemo
 
 # Install dependencies
 npm install
@@ -55,10 +55,10 @@ The tests run against public demo sites:
 ## 🏗️ Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Lety1585/cypress-automation-demo.git
+git clone https://github.com/Lety1585/CypresAutomationDemo.git
 
 # Navigate to project
-cd cypress-automation-demo
+cd CypresAutomationDemo
 
 # Install dependencies
 npm install
