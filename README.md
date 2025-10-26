@@ -2,6 +2,9 @@
 
 This is a sample automation project built with **Cypress** to demonstrate end-to-end and functional testing for web applications.
 
+![Cypress Tests](https://github.com/Lety1585/CypresAutomationDemo/actions/workflows/cypress-tests.yml/badge.svg)
+
+
 The tests run against public demo sites:
 - [The Internet Herokuapp](https://the-internet.herokuapp.com/login)
 - [DemoQA Practice Form](https://demoqa.com/automation-practice-form)
