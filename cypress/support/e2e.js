@@ -1,5 +1,4 @@
-// Ignore uncaught exceptions from the app under test
+// Prevent Cypress from failing tests due to uncaught exceptions in the app
 Cypress.on('uncaught:exception', (err, runnable) => {
-    // returning false here prevents Cypress from failing the test
-    return false;
-  });  
+  return false;
+});

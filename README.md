@@ -10,18 +10,18 @@ The tests run against public demo sites:
 - [DemoQA Practice Form](https://demoqa.com/automation-practice-form)
 
 ## 🚀 Features
-- Web UI testing with Cypress
-- Example of positive and negative login tests
-- Example of form submission test
-- Assertions and selectors best practices
-- Organized folder structure for scalability
-- Ready to integrate with CI/CD (Jenkins or GitHub Actions)
+- End-to-end testing
+- Web UI & form automation
+- Environment config with `cypress.env.json`
+- CI/CD ready with GitHub Actions
+- Ignores demo site uncaught exceptions for stable runs
+- Parameterized tests with reusable test data
 
 ## 🧰 Tech Stack
 - Cypress 13+
 - Node.js
 - JavaScript (ES6)
-- Mocha / Chai (default Cypress stack)
+- GitHub Actions
 
 ## 🏗️ Installation
 ```bash
@@ -33,35 +33,9 @@ cd CypresAutomationDemo
 
 # Install dependencies
 npm install
-# Cypress Automation Demo
 
-This is a sample automation project built with **Cypress** to demonstrate end-to-end and functional testing for web applications.
+# Open Cypress UI
+npm run cypress:open
 
-The tests run against public demo sites:
-- [The Internet Herokuapp](https://the-internet.herokuapp.com/login)
-- [DemoQA Practice Form](https://demoqa.com/automation-practice-form)
-
-## 🚀 Features
-- Web UI testing with Cypress
-- Example of positive and negative login tests
-- Example of form submission test
-- Assertions and selectors best practices
-- Organized folder structure for scalability
-- Ready to integrate with CI/CD (Jenkins or GitHub Actions)
-
-## 🧰 Tech Stack
-- Cypress 13+
-- Node.js
-- JavaScript (ES6)
-- Mocha / Chai (default Cypress stack)
-
-## 🏗️ Installation
-```bash
-# Clone the repository
-git clone https://github.com/Lety1585/CypresAutomationDemo.git
-
-# Navigate to project
-cd CypresAutomationDemo
-
-# Install dependencies
-npm install
+# Run headless
+npm test

@@ -1,5 +1,5 @@
 {
-  "name": "cypress-automation-demo",
+  "name": "cypressautomationdemo",
   "version": "1.0.0",
   "description": "Demo project for end-to-end and functional testing using Cypress.",
   "main": "index.js",
@@ -7,18 +7,9 @@
     "test": "npx cypress run",
     "cypress:open": "npx cypress open"
   },
-  "keywords": [
-    "QA",
-    "automation",
-    "testing",
-    "cypress",
-    "selenium",
-    "postman",
-    "demo"
-  ],
-  "author": "Your Name <your.email@example.com>",
-  "license": "MIT",
+  "keywords": ["QA", "automation", "testing", "cypress", "selenium", "demo"],
+  "author": "Leticia Lenschen - leticialenschen@gmail.com",
   "devDependencies": {
-    "cypress": "^13.17.0"
+    "cypress": "^13.6.0"
   }
 }
