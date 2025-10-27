@@ -1,9 +1,9 @@
 describe('Login Tests', () => {
   beforeEach(() => {
-    cy.visit(Cypress.env('baseUrl') + '/login');
+    cy.visit(Cypress.env('loginUrl'));
   });
 
-  it('should login successfully with valid credentials', () => {
+  it('logs in successfully with valid credentials', () => {
     const user = Cypress.env('validUser');
     cy.get('#username').type(user.username);
     cy.get('#password').type(user.password);
@@ -11,7 +11,7 @@ describe('Login Tests', () => {
     cy.get('.flash.success').should('contain', 'You logged into a secure area!');
   });
 
-  it('should show an error for invalid credentials', () => {
+  it('shows an error with invalid credentials', () => {
     const user = Cypress.env('invalidUser');
     cy.get('#username').type(user.username);
     cy.get('#password').type(user.password);

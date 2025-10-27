@@ -16,6 +16,7 @@
     "demo"
   ],
   "author": "Leticia Lenschen - leticialenschen@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^13.17.0"
   },
@@ -183,6 +184,5 @@
     "wrap-ansi": "^7.0.0",
     "wrappy": "^1.0.2",
     "yauzl": "^2.10.0"
-  },
-  "license": "ISC"
+  }
 }
