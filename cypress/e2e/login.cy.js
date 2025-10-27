@@ -1,4 +1,4 @@
-describe('Login Tests - The Internet Demo', () => {
+describe('Login Tests', () => {
   beforeEach(() => {
     cy.visit(Cypress.env('baseUrl') + '/login');
   });
