@@ -4,7 +4,7 @@
   "description": "Demo project for end-to-end and functional testing using Cypress.",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
+    "test": "npx cypress run --browser electron",
     "cypress:open": "npx cypress open"
   },
   "keywords": [
